@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header{
+    border-bottom: 1px solid #D0D0D0;
+}
+
+.header-inner {
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.telef-inner{
+    display: flex;
+}
+
+.telefon{
+    margin-right: 10px;
+}
+
+.fon{
+  display: flex; 
+}
+.ru{
+    background: rgb(52, 153, 52);
+    width: 24px;
+}
+
+.ua{
+    width: 22px;
+    height: 21px;
+}
+
+
+.online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 55px;
+    border: 1px solid none;
+    background: #EFF3F6;
+}
+.footer {
+    display: flex;
+    height: 5px;
+    width: 1200px;
+    background-color: rgb(177, 177, 177);
+}
+
+.container2{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header-inner2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    height: 50px;
+}
+
+.fon{
+   background: url("/фото/Mask\ Group.png") center center no-repeat;
+   background-size: cover;
+   height: 60vh; 
+}
+
+.fon-text{
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+    width: 725px;
+}
+
+.footer2{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 1400px;
+    top: 660px;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer-iner{
+    display: flex;
+}
+
+.box{
+    background: rgb(247, 236, 236);
+    border-color: grey;
+}
+
+.valanta{
+    width: 131px;
+    height: 72px;
+    top: 17px;
+    left: 100px;
+}
+
+.usd{
+    width: 75px;
+    height: 19px;
+}
+
+.icon{
+    width: 75px;
+    height: 19px;
+}
+
+.telefon{
+    display: inline;
+    flex-direction: row;
+    align-content: center;
+
+}
+
+.do0{
+    width: 100%;
+    margin-top: 30px;
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.do{
+    width: 270px;
+    height: 50px;
+    background: #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid none;
+}
+
+.do2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 50px;
+        border: 1px solid  #969696;
+        border-radius: 2px;
+        box-sizing: border-box;
+}
+
+.heat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 1.2px dashed #969696;
+    border-radius:50%;
+    margin-right: 5px;
+}
+
+
+.footer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-inner{
+    display: flex;
+    flex-direction: column;
+}
+
+.kolobok{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.picture{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.picture-inner{
+    width: 100%;
+    margin: 30px ;
+    display: inline;
+    justify-content: space-evenly;
+    align-items: center;
+}
